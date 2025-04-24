@@ -1,0 +1,184 @@
+body {
+    background-color: #f0f5ff;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #3f51b5;
+    padding: 10px 0;
+    border-bottom: 1px solid #303f9f;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: 600;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.container {
+    padding: 20px 15px;
+}
+
+.card {
+    background: white;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #3f51b5;
+    color: white;
+    border-radius: 4px 4px 0 0 !important;
+    padding: 10px 15px;
+    font-weight: 500;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.btn-success {
+    background-color: #3f51b5;
+    border: none;
+    border-radius: 3px;
+    padding: 6px 12px;
+    font-weight: 500;
+}
+
+.btn-success:hover {
+    background-color: #303f9f;
+}
+
+.btn-danger {
+    background-color: #ff9800;
+    border: none;
+    border-radius: 3px;
+    padding: 6px 12px;
+    font-weight: 500;
+}
+
+.btn-danger:hover {
+    background-color: #f57c00;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.table th {
+    background-color: #e8eaf6;
+    color: #333;
+    font-weight: 600;
+    border: none;
+}
+
+.table td {
+    vertical-align: middle;
+    border-color: #eee;
+}
+
+/* Стили для статусов */
+.status-active {
+    color: #3f51b5;
+    background-color: #e8eaf6;
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+.status-blocked {
+    color: #ff9800;
+    background-color: #fff3e0;
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+/* Стили для кнопок в таблице */
+.table .btn {
+    margin: 2px;
+    padding: 4px 8px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.table .btn-success {
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+}
+
+.table .btn-success:hover {
+    background-color: #303f9f;
+}
+
+.table .btn-danger {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+}
+
+.table .btn-danger:hover {
+    background-color: #f57c00;
+}
+
+.form-control {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 6px 10px;
+}
+
+.form-control:focus {
+    border-color: #3f51b5;
+}
+
+.modal-content {
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.modal-header {
+    background-color: #3f51b5;
+    color: white;
+    border-radius: 4px 4px 0 0;
+    padding: 10px 15px;
+}
+
+.modal-title {
+    font-weight: 500;
+}
+
+.close {
+    color: white;
+    opacity: 1;
+}
+
+.alert {
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.alert-success {
+    background-color: #e8eaf6;
+    border: 1px solid #3f51b5;
+    color: #3f51b5;
+}
+
+.alert-danger {
+    background-color: #fff3e0;
+    border: 1px solid #ff9800;
+    color: #ff9800;
+} 
